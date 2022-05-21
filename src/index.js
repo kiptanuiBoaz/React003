@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-var greeting = "";
-var style = {
+let greeting = "";
+let style = {
   color: ""
 };
 const fullDate = new Date();
