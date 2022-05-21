@@ -8,10 +8,10 @@ var style = {
 const fullDate = new Date();
 const fullTime = fullDate.getHours();
 
-if (fullTime > 0 && fullTime < 12) {
+if (fullTime < 12) {
   greeting = "morning";
   style.color = "green";
-} else if (fullTime > 12 && fullTime < 18) {
+} else if (fullTime < 18) {
   greeting = "afternoon";
   style.color = "blue";
 } else {
